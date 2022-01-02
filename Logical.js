@@ -28,7 +28,7 @@
 
 // let SSCE = true;
 // let BSc = false;
-// // in any case any of the above is false, you can't have access to your account
+// // in any case all of the above is false, you'd be denied an offer
 
 // let Hire = SSCE || BSc;
 
@@ -43,7 +43,7 @@
 
 
 //the other logical operator is the NOT !
-//let's still use thework hire code..NOT converts anything you give it to the opposite, so if it's true, it'll 
+//let's still use the work hire code..NOT converts anything you give it to the opposite, so if it's true, it'll 
 //display false and vice versa..shal we?
 
 let SSCE = false;
