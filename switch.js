@@ -1,13 +1,13 @@
 
 
-let score = 50;
+let score = 6;
 
 switch (score){
-    case 0 - 49:
+    case <= 49:
         console.log('F');
         break;
 
-    case 50 => 59:
+    case 50 - 59:
         console.log('C');
         break;
     case 60 - 69:
@@ -15,6 +15,6 @@ switch (score){
         break;
     case 70 -100:
         console.log('A');
-    default:
-        console.log('OUT OF RANGE')
+    // default:
+    //     console.log('OUT OF RANGE')
 }
